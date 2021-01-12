@@ -39,13 +39,15 @@ GEM
     cssminify (1.0.2)
     execjs (2.0.2)
     ffi (1.9.18)
+    ffi (1.9.18-java)
     fssm (0.2.10)
     git (1.2.6)
     haml (4.0.5)
       tilt
     htmlcompressor (0.0.7)
       yui-compressor (~> 0.9.6)
-    kramdown (1.0.2)
+    kramdown (2.3.0)
+      rexml
     less (2.3.3)
       commonjs (~> 0.2.6)
     libv8 (3.16.14.15)
@@ -62,6 +64,7 @@ GEM
     ref (2.0.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+    rexml (3.2.4)
     ruby-s3cmd (0.1.5)
     sass (3.2.14)
     therubyracer (0.12.2)
@@ -89,7 +92,7 @@ DEPENDENCIES
   coffee-script
   cssminify (~> 1.0.2)
   htmlcompressor (~> 0.0.3)
-  kramdown (~> 1.0.1)
+  kramdown (~> 2.3.0)
   less (~> 2.3.2)
   libv8 (~> 3.16.14.15)
   listen (= 0.7.3)
