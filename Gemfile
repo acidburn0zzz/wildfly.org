@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'awestruct', '0.5.3' 	# Framework for creating static HTML sites
-gem 'uglifier', '~> 2.0.1'	# Ruby wrapper for UglifyJS JavaScript compressor
+gem 'uglifier', '~> 2.7.2'	# Ruby wrapper for UglifyJS JavaScript compressor
 gem 'cssminify', '~> 1.0.2'	# CSS compression using YUI compressor
 gem 'less', '~> 2.3.2'		# Invoke the Less CSS compiler from Ruby
 gem 'therubyracer', '~> 0.12.2', :platforms => :ruby	# Call JavaScript code and manipulate JavaScript objects from Ruby and vice versa
